@@ -2,7 +2,7 @@
     "trailingComma": "none",
     "singleQuote": true,
     "tabWidth": 4,
-    "parser": "typescript",
+    "printWidth": 140,
     "overrides": [
         {
             "files": ["force-app/**/**/classes/*.cls"]
