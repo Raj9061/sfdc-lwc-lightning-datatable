@@ -14,7 +14,7 @@ export default class DatatableLookup extends LightningElement {
     @api fields;
     @api target;
     showLookup = false;
-
+      //Just For Testing.......
     //get the sobject record info with fields to show as url navigation text
     @wire(getRecord, { recordId: '$value', fields: '$fields' })
     record;
